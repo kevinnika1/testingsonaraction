@@ -18,9 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to test my action
     steps:
-      - uses: actions/checkout@v1.2
+      - uses: actions/checkout@v2
       - id: foo
-        uses: kevinnika1/Sonarcloud-GithubChecks-action@v1.1
+        uses: kevinnika1/Sonarcloud-GithubChecks-action@v1.2
         with:
           org: 'kevinnika1'
           project-key: 'kevinnika1_SonarCloudExample'
