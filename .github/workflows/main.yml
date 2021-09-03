@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: foo
-        uses: kevinnika1/Sonarcloud-GithubChecks-action@v1.2
+        uses: kevinnika1/Sonarcloud-GithubChecks-action@v1.3
         with:
           org: 'kevinnika1'
           project-key: 'kevinnika1_SonarCloudExample'
