@@ -19,7 +19,7 @@ jobs:
     name: A job to test my action
     steps:
       - id: foo
-        uses: kevinnika1/Sonarcloud-GithubChecks-action@vDebug3
+        uses: kevinnika1/Sonarcloud-GithubChecks-action@vDebug4
         with:
           org: 'kevinnika1'
           project-key: 'kevinnika1_SonarCloudExample'
