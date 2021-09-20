@@ -24,4 +24,4 @@ jobs:
           org: 'kevinnika1'
           project-key: 'kevinnika1_SonarCloudExample'
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          pat: ${{ secrets.PAT }}
+        #  pat: ${{ secrets.PAT }}
