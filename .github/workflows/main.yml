@@ -19,8 +19,9 @@ jobs:
     name: A job to test my action
     steps:
       - id: foo
-        uses: kevinnika1/Sonarcloud-GithubChecks-action@vDebug4
+        uses: kevinnika1/Sonarcloud-GithubChecks-action@vDebug5
         with:
           org: 'kevinnika1'
           project-key: 'kevinnika1_SonarCloudExample'
           repo_token: ${{ secrets.GITHUB_TOKEN }}
+          pat: ${{ secrets.PAT }}
